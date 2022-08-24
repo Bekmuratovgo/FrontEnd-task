@@ -1,0 +1,27 @@
+.main__wrapper{
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+* {
+    font-family: 'Montserrat';
+}
+.main__add {
+    padding: 20px 50px 0;
+    display: flex;
+    justify-content: center;
+}
+.main__add button {
+    margin: 5px;
+    border: none;
+    padding: 8px 18px;
+    border-radius: 3px;
+    background: #279c40;
+    color: white;
+    font-family: 'Montserrat';
+}
+.main__add button:hover{
+    transition: 0.3s;
+    background: #1f7231;
+}

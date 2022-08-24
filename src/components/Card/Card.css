@@ -1,0 +1,67 @@
+.card {
+    width: 320px;
+    height: 280px;
+    border: 3px solid #27569C;
+    border-radius: 6px;
+    padding: 15px;
+    margin: 15px;
+}
+.card img {
+    width: 120px;
+    height: 120px;
+}
+.card__wrapper_blockFirst {
+    display: flex;
+}
+.card__wrapper_blockFirst h5 {
+    margin: 10px 3px;
+}
+.card__wrapper_data {
+    margin: 0 10px;
+}
+.card__wrapper_data h4 {
+    margin: 0;
+}
+.card__wrapper_author {
+    display: flex;
+}
+.card__wrapper_company {
+    display: flex;
+}
+.card__wrapper_title {
+    margin: 10px 0;
+    font-size: 14px;
+}
+.card__wrapper_edit {
+    margin: 5px;
+    border: none;
+    padding: 8px 18px;
+    border-radius: 3px;
+    background: #27569C;
+    color: white;
+    font-family: 'Montserrat';
+}
+.card__wrapper_delete {
+    margin: 5px;
+    border: none;
+    padding: 8px 18px;
+    border-radius: 3px;
+    background: #27569C;
+    color: white;
+    font-family: 'Montserrat';
+}
+
+.card__wrapper_desc {
+    font-size: 14px;
+}
+@media screen and (max-width: 375px) {
+    .card img {
+        display: none;
+    }
+    .card__wrapper_desc {
+        font-size: 12px;
+    }
+    .card__wrapper_title {
+        font-size: 12px;
+    }
+}
